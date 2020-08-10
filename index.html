@@ -1,0 +1,274 @@
+<!DOCTYPE html>  
+<html lang="en-US">   
+  <head>
+     <meta charest="UTF-8">
+        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+          <title>Ashik Khandani Berlin</title>
+          <style>
+               
+               header {     
+                        display: flex;
+                        
+                     }
+
+                 header, main, footer {
+                                        width: 90vw;
+                                        margin: 0px auto;
+                                        padding: 0px auto;
+                                    }
+             
+                           header>img {
+                                        display: flex;
+                                        flex-basis:20%;
+                                        border: 3px solid maroon;
+                                        border-radius: 2rem;
+                                    }
+                            
+                                 body {
+                                        background-image: url("nightsky.jpg");
+                                        background-size:cover;
+                                        background-repeat:no-repeat;
+                                        
+
+                                    } 
+     
+                                body {
+                                      padding: 2rem;
+                                    
+                                    }
+
+
+                                 nav {
+                                       display: flex;
+                                       flex-basis: 10%;
+                                       justify-content:space-around;
+                                       padding: 2rem;
+
+                                    }
+
+                               nav>a {
+                                       color: white;
+                                       font-family: Verdana, Geneva, Tahoma, sans-serif;
+                                       padding: 1.5rem;
+                                       font-size: large;
+                                         
+                                    }
+
+                            nav>a:hover {
+                                         color: rgba(207, 13, 13, 0.596); 
+
+                                      }
+
+                            nav>a:hover {
+                                          transform: scale(1.2);
+                                          transition: transform 0.4s;
+                                       }
+
+                                    h1 {
+                                          background-color: rgb(14, 12, 12); 
+                                          border: 2px solid white;
+                                          flex-basis: 60%;
+                                          color: rgba(255, 255, 255, 0.877);
+                                          text-align: center;
+                                          font-size: 3rem;
+                                          border-radius: 2rem;
+                                          font-family:Verdana, Geneva, Tahoma, sans-serif;
+                                          padding: 2rem;
+                                          
+                                      }
+
+                                 h2, h3 { 
+                                            text-decoration: underline;
+                                            color:rgb(102, 29, 29);
+                                            text-align:left;
+                                        
+                                        }
+
+                            section.intro {      
+                                            text-align: center;
+                                            font-family: 'Courier New', Courier, monospace;
+                                            color: rgb(245, 255, 250);
+                                            padding: 2px auto;
+                                            font-size: 4rem;
+                                        }
+
+                            section.about {     
+                                            justify-content: center;
+                                            font-family:'Courier New', Courier, monospace;
+                                            color:rgb(245, 255, 250);
+                                            font-size: 2.3rem;
+                                            text-align: center;                                       
+                                        }
+
+
+
+                              section.work {        
+                                             justify-content: center;
+                                             font-family:'Courier New', Courier, monospace;
+                                             color:rgb(245, 255, 250);
+                                             font-size: 2.3rem;
+                                             text-align: center;
+                                             padding: 2.2rem;
+
+                                          }
+
+                              section.hobby {
+                                              justify-content: center;
+                                              font-family:'Courier New', Courier, monospace;
+                                              color:rgb(245, 255, 250);
+                                              text-align: center;
+                                              font-size: 2.3rem;
+                                              padding: 3rem;
+
+                                          }
+
+                             section.contact {
+                                               display: flex;
+                                               flex-basis: 90%;
+                                               justify-content:space-around;
+                                               font-family:'Courier New', Courier, monospace;
+                                               color:rgb(245, 255, 250);
+                                               padding: 2rem;
+                                               font-size: 2rem;
+
+                                            }
+
+                                    p>img {
+                                             border: 2px solid maroon;
+                                             padding: 5px;
+                                    }
+
+
+                                      footer {
+                                               background-color: black;
+                                               padding: 10px;
+                                               border: 2px solid white;                                            
+                                               font-family: 'Courier New', Courier, monospace;
+                                               text-align: center;
+                                               border-radius: 2rem;
+                                               color: white;
+                                            }
+
+         @media screen and (max-width: 580px) {
+                                             
+                        header, main, footer, section {
+                                                    width: 100%;
+                                                    height: 100%;
+                                                 }
+                                              
+
+                                              }
+                                
+                                  p.sektionsfuss {    
+                                                 font-family: 'Courier New', Courier, monospace;
+                                                 font-weight:lighter;
+                                                 font-size: 2rem;
+                                                 text-align: right;
+                                              }            
+                     
+                            .sektionsfuss, a:hover {
+                                                   color: white;
+                                                
+                                                }
+
+                                .sektionsfuss, a {
+                                                   color:maroon;
+
+                                                }
+
+      </style>
+ </head>
+
+        <body>
+               
+          <header id="top">
+
+            <img src="mylogo2.jpg">
+
+            <h1 class="unterstrichen">Ashik  Khandani</h1>
+     
+            <nav>
+         
+                 <a class="smoothscroll" href="#about" title="about me">About</a>
+                 <a class="smoothscroll" href="#work" title="work">Work</a>
+                 <a class="smoothscroll" href="#hobby" title="hoby">Hobbys</a>
+                 <a class="smoothscroll" href="#contact" title="contact">Contact</a>
+           
+           </nav>
+   
+          </header>
+
+        <main>
+      
+          <section id="home"  class="intro">
+            
+               <p>Welcome to my Page.<br>It's a pleasure to meet you.<br>I am Ashik Ahammed,a Web-developer based in Berlin,Germany<br>
+                  and the owner of this Page.</p>
+   
+          </section>
+ 
+ 
+         <section id="about" class="about">
+      
+               <h2 class="unterstrichen">About</h2>
+ 
+               <p> <img src="myphoto.jpg" alt="it's me" width="200" height="220">
+                   I was born in Dhaka,Bangladesh,27 years old.<br>
+                   I am a Food-Lover,like to eat bengali,hungarian,asian,mexican, italian foods and also the other international<br> dishes which are deleciuos and spicy as well.I brought my Childhood in my Country and living since 8 years<br>
+                   in Berlin.I just love my life in Berlin.I learn the Web-development from "Digital Career Institute" in Berlin.</p>
+                   <p class="sektionsfuss"><a href="#top">back to top</a></p>
+
+        </section>         
+
+           <section id="work" class="work">
+  
+      
+            <h2 class="unterstrichen">Work</h2>
+
+          
+               <p>I worked 7 years long in many Restaurants in Berlin.My last job was as "Shift-Manager" with young Teams.<br>
+                  I gatherd a huge ammount of Knowledges while i worked with the hole Team.I also learned the Management<br>
+                  Sectores to operate the Shifts with responsibilties.Now i work as a Web-developer in Private.</p>
+     
+                <p class="sektionsfuss"><a href="#top">back to top</a></p>
+  
+          </section>
+
+              <section id="hobby" class="hobby">
+  
+                   <h2 class="unterstrichen">Hobbys</h2>
+  
+       
+                   <p>I always like to travel the beautiful Countries around the world,also the Historical Places.<br>
+                      One of my most favourite city in europe is "Budapest,Hungary".I play games like <br>
+                      play stations,cars,football etc. and i play also regular Cricket which is a famous asian game and also play<br>
+                      for a Cricket Team in Berlin which is known as "Bangladesh Cricket Club Berlin".</p>
+     
+                    <p class="sektionsfuss"><a href="#top">back to top</a></p>
+
+            </section>
+
+      <section id="contact" class="contact">
+
+               <h3 class="unterstrichen">Contact</h3>
+
+                  <p>Wanna get in touch,just send me an e-mail.</p>
+
+               <h3 class="Phone">Phone</h3>  
+     
+                  <p>to call:(+49) 15773637048<br></p>
+          
+              <h3 class="e-mail">Email</h3>
+  
+                 <p>mdashikahammed@gmail.com</p>
+  
+      </section>
+
+  </main>
+
+   <footer>
+    <a href="#">Privacy &amp Policy;</a>
+   </footer>
+ 
+    </body>
+  </html>
